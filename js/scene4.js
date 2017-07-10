@@ -78,39 +78,43 @@ function scene4() {
 
   frame(function() {
     tyrionContainer.style.left = '50%';
-    danerysContainer.style.right = '40%';
+    danerysContainer.style.left = '40%';
   })
 
   frame(function() {
     tyrionContainer.style.left = '60%';
-    danerysContainer.style.right = '75%';
+    danerysContainer.style.left = '75%';
   })
 
   frame(function() {
     tyrionContainer.style.top = '50%';
-    danerysContainer.style.right = '80%';
+    danerysContainer.style.left = '80%';
   })
 
   frame(function() {
     tyrionContainer.style.left = '50%';
     tyrion.style.transform = 'rotateY(360deg)';
-    danerysContainer.style.right = '150%';
+    danerysContainer.style.left = '60%';
     danerys.style.transform = 'rotateY(360deg)';
   })
 
   frame(function() {
     tyrionContainer.style.left = '20%';
+    danerysContainer.style.left = '30%';
   })
 
   // Stage direction 2
 
   frame(function() {
     tyrionContainer.style.top = '60%';
+    danerysContainer.style.top = '60%';
   })
 
   frame(function() {
     tyrionContainer.style.top = '65%';
     tyrionContainer.style.zIndex = -1;
+    danerysContainer.style.top = '65%';
+    danerysContainer.style.zIndex = -1;
   })
 
 }
